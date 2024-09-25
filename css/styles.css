@@ -1,0 +1,219 @@
+/* Google Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Contenedor general */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background-color: #4CAF50;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.header__title {
+    font-size: 2.5rem;
+}
+
+/* Contenedor principal */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Tarjetas */
+.card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Anidación de clases (highlight) */
+.highlight {
+    border: 2px solid #4CAF50;
+}
+
+/* Pseudoclases y pseudoelementos en enlaces */
+.interactive-link {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.interactive-link:hover {
+    color: #388E3C;
+    transform: scale(1.05);
+}
+
+.interactive-link::after {
+    content: " ➡️";
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    right: -20px;
+}
+
+.interactive-link:hover::after {
+    opacity: 1;
+}
+
+/* Estilos del enlace "Saber más" */
+.card__link {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    transition: color 0.3s;
+}
+
+.card__link:hover {
+    color: #388E3C;
+}
+
+/* Flex Container para la tercera sección */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: DodgerBlue;
+    flex-wrap: wrap; /* Permite que los elementos se distribuyan en varias filas */
+    padding: 10px;
+    justify-content: space-around; /* Distribuye los elementos con espacio entre ellos */
+}
+
+.box {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100px; /* Ajusta el ancho de los elementos flexibles */
+    text-align: center;
+}
+
+/* La clase adicional para el segundo elemento */
+.otraclase {
+    align-self: flex-start; /* Alinea el segundo elemento al inicio del contenedor */
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer__text {
+    margin: 0;
+}
+
+/* Pseudoelemento en la descripción */
+.card__description::before {
+    content: "👉 ";
+    font-size: 1.5rem;
+    color: #4CAF50;
+}
+
+/* Hover en las tarjetas */
+.card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s;
+}
+
+
+.edu-au-vic-wa-nt-dots-uniquifier {
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
